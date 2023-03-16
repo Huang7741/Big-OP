@@ -16,7 +16,6 @@ jobs:
 
       - name: Auto green
         run: |
-          git config --global url."https://".instead0f git://
           git config --local user.email "513641306@qq.com"
           git config --local user.name "Huang7741"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
