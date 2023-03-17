@@ -6,6 +6,9 @@ on:
       - master
   schedule:
     - cron: "0 * * * *"
+    
+permissions:
+  contents: write    
 
 jobs:
   autogreen:
